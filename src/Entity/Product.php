@@ -108,4 +108,8 @@ class Product
     {
         return $this->image;
     }
+
+    public function getFilename(){
+        return $this->image;
+    }
 }
