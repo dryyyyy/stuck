@@ -1,0 +1,19 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Craftscity{% endblock %}
+
+{% block body %}
+    <div>
+        <img id="background" src="{{ asset('/assets/www16.jpg') }}" alt="background">
+    </div>
+    <div class="table" routerLink="tables"></div>
+    <div class="game"></div>
+    <div class="frame" routerLink="tables"></div>
+    <div class="frame2" routerLink="tables"></div>
+    <div class="shelf" routerLink="tables"></div>
+    <div class="shelves" routerLink="tables"></div>
+    <div class="clock" (click)='toClocks()'></div>
+    <div class="statue" routerLink="tables"></div>
+    <div class="toy" routerLink="tables"></div>
+    <div class="mirror" (click)="toMirrors()"></div>
+{% endblock %}

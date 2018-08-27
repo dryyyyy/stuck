@@ -1,0 +1,23 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello {{ controller_name }}!{% endblock %}
+
+{% block body %}
+    <h1></h1>
+
+    <div class="gallery cf">
+        {% for product in products %}
+            <img {{ product.image }} />
+        {% endfor %}
+    </div>
+
+    <div class="row">
+        <ul id="thumbnailsList">
+            <li *ngFor="let image of images | async" class="img">
+                <a [routerLink]="['/image', image.$key]">
+                    <img src="{{ image.url }}" class="tn">
+                </a>
+            </li>
+        </ul>
+    </div>
+{% endblock %}

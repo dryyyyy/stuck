@@ -1,0 +1,144 @@
+img {
+    width: 1920px;
+    position: relative;
+}
+
+.table {
+    height: 450px;
+    width: 500px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1 !important;
+    top: 681px;
+    left: 1000px;
+}
+
+.table:hover {
+    border: 2px red solid;
+}
+
+.frame {
+    height: 74px;
+    width: 116px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1 !important;
+    top: 340px;
+    left: 1260px;
+}
+
+.frame:hover {
+    border: 2px greenyellow solid;
+}
+
+.frame2 {
+    height: 179px;
+    width: 250px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1 !important;
+    top: 272px;
+    left: 67px;
+}
+
+.frame2:hover {
+    border: 2px greenyellow solid;
+}
+
+.game {
+    height: 118px;
+    width: 213px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9 !important;
+    top: 896px;
+    left: 1108px;
+}
+
+.game:hover {
+    border: 2px blue solid;
+}
+
+.shelf {
+    height: 267px;
+    width: 130px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9 !important;
+    top: 245px;
+    left: 697px;
+}
+
+.shelf:hover {
+    border: 2px blue solid;
+}
+
+.clock {
+    height: 142px;
+    width: 64px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9 !important;
+    top: 215px;
+    left: 1024px;
+}
+
+.clock:hover {
+    border: 2px beige solid;
+}
+
+.shelves {
+    height: 49px;
+    width: 153px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9 !important;
+    top: 453px;
+    left: 1202px;
+}
+
+.shelves:hover {
+    border: 2px beige solid;
+}
+
+.statue {
+    height: 128px;
+    width: 123px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9 !important;
+    top: 674px;
+    left: 1270px;
+}
+
+.statue:hover {
+    border: 2px beige solid;
+}
+
+.toy {
+    height: 51px;
+    width: 37px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9 !important;
+    top: 453px;
+    left: 750px;
+}
+
+.toy:hover {
+    border: 2px palevioletred solid;
+}
+
+.mirror {
+    height: 800px;
+    width: 310px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 9 !important;
+    top: 100px;
+    left: 1600px;
+}
+
+.mirror:hover {
+    border: 2px cornflowerblue solid;
+}
