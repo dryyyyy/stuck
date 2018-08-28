@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Entity\Product;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
@@ -22,10 +23,22 @@ class AppRouter extends AbstractController
      */
     public function productsList()
     {
-        $products = [];
-
+        $products = $this->getDoctrine()->getRepository(Product::class)->findAll();
         return $this->render('products_list/products_list.html.twig', [
             'controller_name' => 'products_list',
+            'products' => $products
+        ]);
+    }
+
+    /**
+     * @Route("/product/{id}", name="product_show")
+     */
+    public function show($id)
+    {
+        $product = $this->getDoctrine()->getRepository(Product::class)->find($id);
+        return $this->render('product/product.html.twig', [
+            'controller_name' => 'product',
+            'product' => $product
         ]);
     }
 

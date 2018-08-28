@@ -6,14 +6,14 @@
     <div>
         <img id="background" src="{{ asset('/assets/www16.jpg') }}" alt="background">
     </div>
-    <div class="table" routerLink="tables"></div>
-    <div class="game"></div>
-    <div class="frame" routerLink="tables"></div>
-    <div class="frame2" routerLink="tables"></div>
-    <div class="shelf" routerLink="tables"></div>
-    <div class="shelves" routerLink="tables"></div>
-    <div class="clock" (click)='toClocks()'></div>
-    <div class="statue" routerLink="tables"></div>
-    <div class="toy" routerLink="tables"></div>
-    <div class="mirror" (click)="toMirrors()"></div>
+    <a class="table" href="{{ path('products_list') }}"></a>
+    <a class="game" href="{{ path('products_list') }}"></a>
+    <a class="frame" href="{{ path('products_list') }}"></a>
+    <a class="frame2" href="{{ path('products_list') }}"></a>
+    <a class="shelf" href="{{ path('products_list') }}"></a>
+    <a class="shelves" href="{{ path('products_list') }}"></a>
+    <a class="clock" href="http://www.dim-time.ru"></a>
+    <a class="statue" href="{{ path('products_list') }}"></a>
+    <a class="toy" href="{{ path('products_list') }}"></a>
+    <a class="mirror" href="https://www.fusiondom.ru"></a>
 {% endblock %}

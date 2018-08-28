@@ -20,29 +20,32 @@ body {
     box-shadow: 0 1px 2px rgba(0,0,0,.3);
 }
 
-.gallery > div {
+.gallery > div > a {
     position: relative;
     float: left;
     padding: 5px;
 }
 
-.gallery > div > img {
+.gallery > div > a > img {
     display: block;
     width: 200px;
     height: 200px;
     object-fit: cover;
     transition: .1s transform;
     transform: translateZ(0); /* hack */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
 }
 
-.gallery > div:hover {
+.gallery > div > a:hover {
     z-index: 1;
 }
 
-.gallery > div:hover > img {
-    object-fit: contain;
-    transform: scale(2,2);
+.gallery > div > a:hover > img {
+    transform: scale(1.05,1.05);
     transition: .3s transform;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
 .cf:before, .cf:after {
