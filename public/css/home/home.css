@@ -1,5 +1,9 @@
+#main{
+    position: relative;
+}
+
 img {
-    width: 1920px;
+    width: 100%;
     position: relative;
 }
 
@@ -9,8 +13,8 @@ img {
     background-color: transparent;
     position: absolute;
     z-index: 1 !important;
-    top: 681px;
-    left: 1000px;
+    top: 600px;
+    left: 980px;
 }
 
 .table:hover {
@@ -23,8 +27,8 @@ img {
     background-color: transparent;
     position: absolute;
     z-index: 1 !important;
-    top: 340px;
-    left: 1260px;
+    top: 290px;
+    left: 1245px;
 }
 
 .frame:hover {
@@ -37,7 +41,7 @@ img {
     background-color: transparent;
     position: absolute;
     z-index: 1 !important;
-    top: 272px;
+    top: 242px;
     left: 67px;
 }
 
@@ -51,7 +55,7 @@ img {
     background-color: transparent;
     position: absolute;
     z-index: 9 !important;
-    top: 896px;
+    top: 836px;
     left: 1108px;
 }
 
@@ -65,7 +69,7 @@ img {
     background-color: transparent;
     position: absolute;
     z-index: 9 !important;
-    top: 245px;
+    top: 185px;
     left: 697px;
 }
 
@@ -79,8 +83,8 @@ img {
     background-color: transparent;
     position: absolute;
     z-index: 9 !important;
-    top: 215px;
-    left: 1024px;
+    top: 165px;
+    left: 1014px;
 }
 
 .clock:hover {
@@ -93,8 +97,8 @@ img {
     background-color: transparent;
     position: absolute;
     z-index: 9 !important;
-    top: 453px;
-    left: 1202px;
+    top: 393px;
+    left: 1190px;
 }
 
 .shelves:hover {
@@ -107,8 +111,8 @@ img {
     background-color: transparent;
     position: absolute;
     z-index: 9 !important;
-    top: 674px;
-    left: 1270px;
+    top: 610px;
+    left: 1260px;
 }
 
 .statue:hover {
@@ -121,8 +125,8 @@ img {
     background-color: transparent;
     position: absolute;
     z-index: 9 !important;
-    top: 453px;
-    left: 750px;
+    top: 390px;
+    left: 740px;
 }
 
 .toy:hover {
@@ -135,8 +139,8 @@ img {
     background-color: transparent;
     position: absolute;
     z-index: 9 !important;
-    top: 100px;
-    left: 1600px;
+    top: 50px;
+    left: 1590px;
 }
 
 .mirror:hover {

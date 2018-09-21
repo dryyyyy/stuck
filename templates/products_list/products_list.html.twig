@@ -3,16 +3,15 @@
 {% block title %}Примеры работ{% endblock %}
 
 {% block body %}
-    <h1></h1>
-
-    <div class="gallery cf">
-        {% for product in products %}
-            <div>
-                <a href="product/{{ product.id }}">
-                    <img src="/uploads/images/products/{{ product.image }}"/>
-                </a>
-            </div>
-        {% endfor %}
+    <div class="about-container">
+        <div class="gallery cf">
+            {% for product in products %}
+                <div>
+                    <a href="product/{{ product.id }}">
+                        <img src="/uploads/images/products/{{ product.image }}"/>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
     </div>
-
 {% endblock %}

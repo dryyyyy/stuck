@@ -1,9 +1,19 @@
-.about_container{
-    border: 1px dashed darkblue;
+.about-container{
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    height: 100%;
+}
+
+.about-wrapper{
+    border: 1px dashed darkblue;
+}
+
+.about-paragraph {
+    width: auto;
+    display: block;
+    text-align: justify;
 }
 
 ul{

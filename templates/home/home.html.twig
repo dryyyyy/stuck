@@ -1,19 +1,31 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Craftscity{% endblock %}
+{% block title %}Craftscity | Индивидуальная разработка Фоторамок, Изготовление визуализация и разработка изделий из дерева, Семейные фоторамки и деревья. Свадебные хештеги и семейные герба. Аксессуары для фотосессий.{% endblock %}
 
 {% block body %}
-    <div>
-        <img id="background" src="{{ asset('/assets/www16.jpg') }}" alt="background">
+    <div id="main">
+        <div>
+            <img id="background" src="{{ asset('/assets/www16.jpg') }}" alt="background">
+        </div>
+        <a class="table" href="{{ path('products_list') }}"></a>
+        <a class="game" href="{{ path('products_list') }}"></a>
+        <a class="frame" href="{{ path('products_list') }}"></a>
+        <a class="frame2" href="{{ path('products_list') }}"></a>
+        <a class="shelf" href="{{ path('products_list') }}"></a>
+        <a class="shelves" href="{{ path('products_list') }}"></a>
+        <a class="clock" href="http://www.dim-time.ru"></a>
+        <a class="statue" href="{{ path('products_list') }}"></a>
+        <a class="toy" href="{{ path('products_list') }}"></a>
+        <a class="mirror" href="https://www.fusiondom.ru"></a>
     </div>
-    <a class="table" href="{{ path('products_list') }}"></a>
-    <a class="game" href="{{ path('products_list') }}"></a>
-    <a class="frame" href="{{ path('products_list') }}"></a>
-    <a class="frame2" href="{{ path('products_list') }}"></a>
-    <a class="shelf" href="{{ path('products_list') }}"></a>
-    <a class="shelves" href="{{ path('products_list') }}"></a>
-    <a class="clock" href="http://www.dim-time.ru"></a>
-    <a class="statue" href="{{ path('products_list') }}"></a>
-    <a class="toy" href="{{ path('products_list') }}"></a>
-    <a class="mirror" href="https://www.fusiondom.ru"></a>
 {% endblock %}
+
+
+{#{% block navigation %}#}
+    {#yo yo, custom text here!#}
+{#{% endblock %}#}
+
+
+{#{% block custom_block %}#}
+    {#some other awesome text!#}
+{#{% endblock %}#}

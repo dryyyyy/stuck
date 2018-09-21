@@ -1,6 +1,6 @@
 .product_image {
     margin: auto;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
     border-radius: 8px;
 
@@ -8,4 +8,8 @@
 
 .product_image_wrapper {
     text-align: center;
+}
+
+.product_description {
+    font-size: large;
 }
