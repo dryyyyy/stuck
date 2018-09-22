@@ -7,142 +7,85 @@ img {
     position: relative;
 }
 
-.table {
-    height: 450px;
-    width: 500px;
-    background-color: transparent;
+.el {
     position: absolute;
-    z-index: 1 !important;
-    top: 600px;
-    left: 980px;
 }
 
-.table:hover {
-    border: 2px red solid;
+.el:hover {
+    border: 2px solid black;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 
-.frame {
-    height: 74px;
-    width: 116px;
-    background-color: transparent;
-    position: absolute;
-    z-index: 1 !important;
-    top: 290px;
-    left: 1245px;
+.el:nth-of-type(1){
+    height: 39.06%;
+    width: 24.41%;
+    top: 60.33%;
+    left: 52.25%;
 }
 
-.frame:hover {
-    border: 2px greenyellow solid;
+.el:nth-of-type(2){
+     height: 10.24%;
+     width: 10.4%;
+     top: 77.78%;
+     left: 57.62%;
+ }
+
+.el:nth-of-type(3){
+    height: 6.42%;
+    width: 5.66%;
+    top: 26.91%;
+    left: 65.67%;
 }
 
-.frame2 {
-    height: 179px;
-    width: 250px;
-    background-color: transparent;
-    position: absolute;
-    z-index: 1 !important;
-    top: 242px;
-    left: 67px;
+.el:nth-of-type(4){
+    height: 15.54%;
+    width: 12.21%;
+    top: 22.14%;
+    left: 3.27%;
 }
 
-.frame2:hover {
-    border: 2px greenyellow solid;
+.el:nth-of-type(5) {
+    height: 24.58%;
+    width: 6.35%;
+    top: 17%;
+    left: 36.53%;
 }
 
-.game {
-    height: 118px;
-    width: 213px;
-    background-color: transparent;
-    position: absolute;
-    z-index: 9 !important;
-    top: 836px;
-    left: 1108px;
+.el:nth-of-type(6) {
+    height: 4.45%;
+    width: 7.55%;
+    top: 36.5%;
+    left: 62.55%;
 }
 
-.game:hover {
-    border: 2px blue solid;
+.el:nth-of-type(7) {
+    height: 12%;
+    width: 7.55%;
+    top: 57%;
+    left: 65.55%;
 }
 
-.shelf {
-    height: 267px;
-    width: 130px;
-    background-color: transparent;
-    position: absolute;
-    z-index: 9 !important;
-    top: 185px;
-    left: 697px;
+.el:nth-of-type(8) {
+    height: 73%;
+    width: 14.55%;
+    top: 5%;
+    left: 84.55%;
 }
 
-.shelf:hover {
-    border: 2px blue solid;
+.el:nth-of-type(9) {
+    height: 14%;
+    width: 4%;
+    top: 15%;
+    left: 53%;
 }
 
-.clock {
-    height: 142px;
-    width: 64px;
-    background-color: transparent;
-    position: absolute;
-    z-index: 9 !important;
-    top: 165px;
-    left: 1014px;
+.el:nth-of-type(10) {
+    height: 5.5%;
+    width: 2%;
+    top: 36%;
+    left: 39%;
 }
 
-.clock:hover {
-    border: 2px beige solid;
-}
 
-.shelves {
-    height: 49px;
-    width: 153px;
-    background-color: transparent;
-    position: absolute;
-    z-index: 9 !important;
-    top: 393px;
-    left: 1190px;
-}
-
-.shelves:hover {
-    border: 2px beige solid;
-}
-
-.statue {
-    height: 128px;
-    width: 123px;
-    background-color: transparent;
-    position: absolute;
-    z-index: 9 !important;
-    top: 610px;
-    left: 1260px;
-}
-
-.statue:hover {
-    border: 2px beige solid;
-}
-
-.toy {
-    height: 51px;
-    width: 37px;
-    background-color: transparent;
-    position: absolute;
-    z-index: 9 !important;
-    top: 390px;
-    left: 740px;
-}
-
-.toy:hover {
-    border: 2px palevioletred solid;
-}
-
-.mirror {
-    height: 800px;
-    width: 310px;
-    background-color: transparent;
-    position: absolute;
-    z-index: 9 !important;
-    top: 50px;
-    left: 1590px;
-}
-
-.mirror:hover {
-    border: 2px cornflowerblue solid;
-}
