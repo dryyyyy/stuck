@@ -25,7 +25,7 @@ class Product
     private $title;
 
     /**
-     * @ORM\Column(type="string", length=255, nullable=true)
+     * @ORM\Column(type="text", nullable=true)
      */
     private $description;
 
@@ -87,15 +87,16 @@ class Product
         return $this;
     }
 
-    public function setImageFile(File $image = null) {
+    public function setImageFile(File $image = null)
+    {
         $this->imageFile = $image;
-
-        if($image) {
+        if ($image) {
             $this->updatedAt = new \DateTime('now');
         }
     }
 
-    public function getImageFile() {
+    public function getImageFile()
+    {
         return $this->imageFile;
     }
 
@@ -109,7 +110,8 @@ class Product
         return $this->image;
     }
 
-    public function getFilename(){
+    public function getFilename()
+    {
         return $this->image;
     }
 }

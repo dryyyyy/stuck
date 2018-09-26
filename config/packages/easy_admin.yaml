@@ -17,7 +17,7 @@ easy_admin:
             form:
                 fields:
                     - 'title'
-                    - 'description'
+                    - { property: 'description', type: 'textarea' }
                     - { property: 'imageFile', type: 'vich_image'}
 
 
