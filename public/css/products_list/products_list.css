@@ -13,7 +13,7 @@ body {
 }
 
 .gallery {
-    width: 1060px;
+    width: 80%;
     margin: 0 auto;
     padding: 5px;
     background: #fff;
@@ -86,4 +86,8 @@ li{
 
 h2{
     margin-bottom: 20px;
+}
+
+.product-image-small {
+    margin: auto;
 }

@@ -7,7 +7,7 @@
         <div class="gallery cf">
             {% for product in products %}
                 <div>
-                    <a href="product/{{ product.id }}">
+                    <a class="product-image-small" href="{{ path('product', {'title': product.title}) }}">
                         <img src="/uploads/images/products/{{ product.image }}"/>
                     </a>
                 </div>

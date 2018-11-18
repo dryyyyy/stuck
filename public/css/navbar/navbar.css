@@ -1,3 +1,11 @@
 .navbar {
-    background-color: #E4E4E4;
+    width: 100%;
+}
+
+.navbar-dark{
+    background-color: #363636;
+}
+
+.nav-item {
+    font: 1.3em "Open Sans", sans-serif;
 }

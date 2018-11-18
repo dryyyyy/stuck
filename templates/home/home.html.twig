@@ -1,21 +1,52 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Craftscity | Индивидуальная разработка Фоторамок, Изготовление визуализация и разработка изделий из дерева, Семейные фоторамки и деревья. Свадебные хештеги и семейные герба. Аксессуары для фотосессий.{% endblock %}
+{% block title %}Craftscity | Фоторамки, хэштеги, изделия из дерева..{% endblock %}
 
 {% block body %}
     <div id="main">
+        <h1 class="">Мастерская предметов интерьера Craftscity.</h1>
         <div>
-            <img id="background" src="{{ asset('/assets/www16.jpg') }}" alt="background">
+            <img src="{{ asset('/assets/newRoom.jpg') }}" alt="background">
         </div>
-        <a class="el table" href="{{ path('products_list') }}"></a>
-        <a class="el game" href="{{ path('products_list') }}"></a>
-        <a class="el frame" href="{{ path('products_list') }}"></a>
-        <a class="el frame2" href="{{ path('products_list') }}"></a>
-        <a class="el shelf" href="{{ path('products_list') }}"></a>
-        <a class="el shelves" href="{{ path('products_list') }}"></a>
-        <a class="el statue" href="{{ path('products_list') }}"></a>
-        <a class="el mirror" href="https://www.fusiondom.ru"></a>
-        <a class="el clock" href="http://www.dim-time.ru"></a>
-        <a class="el toy" href="{{ path('products_list') }}"></a>
+        <a class="el lamp" href="{{ path('products_list', {'type': 'lamp'}) }}"></a>
+        <a class="el accessories" href="{{ path('products_list', {'type': 'accessories'}) }}"></a>
+        <a class="el frame" href="{{ path('products_list', {'type': 'frame'}) }}"></a>
+        <a class="el frame" href="{{ path('products_list', {'type': 'frame'}) }}"></a>
+        <a class="el shelf" href="{{ path('products_list', {'type': 'shelf'}) }}"></a>
+        <a class="el shelf" href="{{ path('products_list', {'type': 'shelf'}) }}"></a>
+        <a class="el emblem" href="{{ path('products_list', {'type': 'emblem'}) }}"></a>
+        <a class="el mirror" href="{{ path('products_list', {'type': 'mirror'}) }}"></a>
+        <a class="el clock" href="{{ path('products_list', {'type': 'clock'}) }}"></a>
+        <a class="el accessories" href="{{ path('products_list', {'type': 'accessories'}) }}"></a>
     </div>
+    <section>
+        <div class="container">
+            <table class="table">
+                <thead>
+
+                        {% for article in articles %}
+                            {% if loop.index is even %}
+                                <tr>
+                                    <th scope="col">
+                                        <h4>{{ article.title }}</h4>
+                                        <p>{{ article.content }}</p>
+                                    </th>
+                                    <th scope="col"><img src="/uploads/images/products/{{ article.image }}" alt="article-image"></th>
+                                </tr>
+                            {% else %}
+                                <tr>
+                                    <th scope="col"><img src="/uploads/images/products/{{ article.image }}" alt="article-image"></th>
+                                    <th scope="col">
+                                        <h4>{{ article.title }}</h4>
+                                        <p>{{ article.content }}</p>
+                                    </th>
+                                </tr>
+                            {% endif %}
+
+                        {% endfor %}
+
+                </thead>
+            </table>
+        </div>
+    </section>
 {% endblock %}

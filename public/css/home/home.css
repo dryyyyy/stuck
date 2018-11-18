@@ -19,73 +19,73 @@ img {
 }
 
 .el:nth-of-type(1){
-    height: 39.06%;
-    width: 24.41%;
-    top: 60.33%;
-    left: 52.25%;
+    height: 13.06%;
+    width: 7.41%;
+    top: 23.33%;
+    left: 54.25%;
 }
 
 .el:nth-of-type(2){
-     height: 10.24%;
-     width: 10.4%;
-     top: 77.78%;
-     left: 57.62%;
+    height: 8.24%;
+    width: 11.4%;
+    top: 67.78%;
+    left: 36.62%;
  }
 
 .el:nth-of-type(3){
-    height: 6.42%;
-    width: 5.66%;
-    top: 26.91%;
-    left: 65.67%;
+    height: 20.42%;
+    width: 7.66%;
+    top: 47.91%;
+    left: 93.9%;
 }
 
 .el:nth-of-type(4){
     height: 15.54%;
     width: 12.21%;
-    top: 22.14%;
-    left: 3.27%;
+    top: 45.14%;
+    left: 12.27%;
 }
 
 .el:nth-of-type(5) {
-    height: 24.58%;
-    width: 6.35%;
-    top: 17%;
-    left: 36.53%;
+    height: 23.58%;
+    width: 7.35%;
+    top: 38%;
+    left: 42.53%;
 }
 
 .el:nth-of-type(6) {
-    height: 4.45%;
-    width: 7.55%;
-    top: 36.5%;
-    left: 62.55%;
+    height: 11.45%;
+    width: 8.55%;
+    top: 67.5%;
+    left: 84.55%;
 }
 
 .el:nth-of-type(7) {
     height: 12%;
     width: 7.55%;
-    top: 57%;
-    left: 65.55%;
+    top: 42%;
+    left: 58.55%;
 }
 
 .el:nth-of-type(8) {
-    height: 73%;
-    width: 14.55%;
-    top: 5%;
-    left: 84.55%;
+    height: 26%;
+    width: 5%;
+    top: 42%;
+    left: 88.95%;
 }
 
 .el:nth-of-type(9) {
-    height: 14%;
-    width: 4%;
-    top: 15%;
-    left: 53%;
+    height: 28%;
+    width: 9%;
+    top: 28%;
+    left: 0%;
 }
 
 .el:nth-of-type(10) {
-    height: 5.5%;
+    height: 5%;
     width: 2%;
-    top: 36%;
-    left: 39%;
+    top: 57%;
+    left: 45.3%;
 }
 
 
